@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Lauryn Williams-Lewis</title>
+    <link rel='stylesheet' type='text/css' href="pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="lauryn.js"></script>
+  <head>
+  <body>
+    <a href="home_page.html">
+    <button class="btn"><i class="fa fa-home"></i></button>
+    </a>
+    <h1> Search for a movie by Title</h1>
+    <div class="box">
+      <form action ="movie_search.php"  onSubmit = "return validate(this)">
+          <p> Movie title : <br>
+          <input type="text" id="textBox" name="title">
+          <br><br>
+          <input type ="submit" class="button" id="Search" value="Search">
+          </p>
+      </form>
+    </div>
+  </body>
+</html>

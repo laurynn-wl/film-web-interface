@@ -1,0 +1,102 @@
+@import url('https://fonts.cdnfonts.com/css/permanent-marker');
+
+body{
+    background-image:url(background_image.jpg) ;
+    background-position: center;
+    background-size: cover;
+   
+  }
+
+  h1 {
+    font-size: 70px;
+    color:gainsboro;
+    text-align:center;
+    font-family: 'Permanent Marker', sans-serif;
+    text-shadow: 2px 2px 5px black;
+  }
+  
+
+  p{
+    color: gainsboro;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Permanent Marker', sans-serif;
+    text-align: center;
+  }
+
+
+.btn {
+    background-color: slategray; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+.btn:hover {
+    background-color: black;
+  }
+
+.btn:active{
+    background-color: black;
+    box-shadow: 0 10px #666;
+    transform: translateY(4px);
+
+  }
+
+
+.box{
+    height: 470px;
+    width: 320px;
+    padding: 1px;
+    border: 10px solid white;
+    border-radius: 15px;
+    margin: 0;
+    left: 43.5%;
+    top: 30%;
+    position: absolute;
+}
+
+
+#Search{
+  width: 130px;
+  height: 42px;
+  color:black;
+  font-family: "Courrier New", monospace;
+  font-size: 17px;
+  padding: 12px 0 ;
+  border: 0;
+  border-radius: 20px;
+  outline:none;
+  background:gainsboro;
+  margin: 0;
+  position: absolute;
+  cursor: pointer;
+  left: 29.5%;
+  text-align: center;
+}
+
+p{
+  color:grey;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courrier New", monospace;
+
+}
+
+
+.option{
+  border-radius: 13px;
+  border-color: gainsboro;
+}
+
+#text{
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Courrier New", monospace;
+}
+
+
